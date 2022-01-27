@@ -7,10 +7,27 @@
     background: #192a32;
 }
 
-header {
+/* header{
+    position: fixed;
+    right: 550px;
+}
+
+button {
+    background-color: #a6bcc7;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button i {
+    background: #a6bcc7;
+} */
+
+
+/* header {
     display: flex;
     height: 40vh;
-    /* width: 116vw; */
+    width: 116vw;
     justify-content: center;
     align-items: center;
 }
@@ -25,19 +42,34 @@ button {
 
 button i {
     background-color: #a6bcc7;
+} */
+
+header {
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+div span {
+    background-color: #3d6a81;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .container {
-    height: 10vh;
-    /* width: 100vw; */
     display: grid;
-    grid-template-columns: 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
 
     grid-gap: 10px;
 
     justify-content: center;
     align-content: center;
+
 }
 
 .container > div {
